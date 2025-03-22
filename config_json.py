@@ -1,0 +1,20 @@
+def get_config():
+    return {
+        "batch_size": 128,
+        "image_size": 32,
+        "lr": 1e-4,
+        "d_model": 512,
+        "num_epochs": 20,
+        "model_folder": "weights",
+        "model_filename": "ViTmodel_",
+        "resume": None,
+        "experiment_name": "runs/ViTmodel",
+        "hidden_dims": 768,
+        "upsample_mlp_dims": 1536,
+        "patch_size": 16,
+        "num_channels": 3, 
+        "dropout": 0.1,
+        "num_attn_blocks": 12,
+        "num_attn_heads": 6,
+        "num_labels": 10
+    }
